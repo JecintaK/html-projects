@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+       My First Website
+    </title>
+
+    <style>
+      .main-button{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+      }
+      .main-button:hover {
+        opacity: 0.7;
+        transition: opacity 0.15s;
+      }
+      .main-button:active {
+        opacity: 0.5;
+      }
+      .h1-tag {
+        font-family: Arial;
+        color:rgb(100, 18, 176)
+        
+      }
+      .contact-form {
+        max-width: 400px;
+        margin: 20px 0;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 20px;
+        border: 2px solid rgb(155,24,24) ;
+        
+    }
+    .contact-form button {
+        padding: 10px 20px;
+        background-color: rgb(200, 0, 0);;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .contact-form button:hover {
+        background-color: rgb(207, 0, 134);
+    }
+    
+  .top-nav {
+      float: left;
+      display:list-item;
+      background-color: rgb(180, 160, 129);
+      color: rgb(67, 90, 166);
+      text-align: center;
+      padding: 14px 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      overflow:hidden;
+      margin-right: 4px;
+      border-radius: 8px;
+      border-color: blue;
+  }
+  .top-nav:hover {
+      background-color: #ddd;
+      color: black;
+  }
+  
+
+
+  
+    </style>
+    <H1 class="h1-tag">
+      JECINTA 
+    </H1>
+  </head>  
+   <body>
+    <nav class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="CONTACT.HTML">Contact</a>
+      <a href="ABOUT ME PAGE.html">About me</a>
+  </nav>
+
+    <br><button class="main-button">
+      JECINTA
+    </button>
+    <h2>About me</h2>
+    <p class="about me ">
+      My name is Jecinta,an aspiring <strong>Software Engineer</strong>.<br>
+      I am currently learning HTML,CSS and figma which <br>
+      is part of front-end development.
+    </p>
+    <p> 
+     My hobbies are crocheting and drawing.
+    </p>
+    <p>
+      my skills:
+    </p>
+    <div>
+      <ul>
+        <li>drawing</li>
+        <li>cooking</li>
+        <li>crocheting</li>
+      </ul>
+    </div>
+    <p>
+      My past projects.
+    </p>
+    <div>
+      <ol>
+        <li>I am a junior data analyst.</li>
+        <li>I am a member of finding community in my school.</li>
+      </ol>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="CONTACT.HTML">Contact</a>
+        </li>
+        <li>
+          <a href="ABOUT ME PAGE.html">About me</a>
+        </li>
+      </ul>
+    </nav>
+    <h2>Social Media</h2>
+        <div class="social-links">
+            <a href="https://github.com/JecintaK/HTML-project/blob/main/CSS-HTML%20COURSE%20YT%20-%20Copy/INDEX.html" target="_blank"> My GitHub</a>
+          
+        </div>
+    <p>
+      <span>Email</span><br>
+      <a href="">kingathiajn@gmail.com</a>
+    </p>  
+    <p>
+      <span>Phone</span><br>
+      <a href="">+254722729014</a>
+    </p>
+    <h3>Contact form</h3>
+    <form class="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+      <button type="submit">Submit</button>
+  </form>
+  <p>
+    <em>Thank you for visiting my website.</em>
+  </p>
+
+   </body>
+
+</html>
